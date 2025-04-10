@@ -45,15 +45,15 @@ This is a fully functional task management web application built with Vue 3, Typ
    Open the src/firebaseConfig.ts
    Replace the placeholder values with your Firebase project credentials (from step 4). It should look like this:
    ```sh
-      const firebaseConfig = {
-      apiKey: "<YOUR_API_KEY>",
-       authDomain: "<YOUR_AUTH_DOMAIN>",
-       projectId: "<YOUR_PROJECT_ID>",
-       storageBucket: "<YOUR_STORAGE_BUCKET>",
-       messagingSenderId: "<YOUR_MESSAGING_SENDER_ID>",
-       appId: "<YOUR_APP_ID>",
-       measurementId: "<YOUR_MEASUREMENT_ID>",
-    };
+   const firebaseConfig = {
+   apiKey: "<YOUR_API_KEY>",
+   authDomain: "<YOUR_AUTH_DOMAIN>",
+   projectId: "<YOUR_PROJECT_ID>",
+   storageBucket: "<YOUR_STORAGE_BUCKET>",
+   messagingSenderId: "<YOUR_MESSAGING_SENDER_ID>",
+   appId: "<YOUR_APP_ID>",
+   measurementId: "<YOUR_MEASUREMENT_ID>",
+   };
 
    ```
 6. Run the development server:
